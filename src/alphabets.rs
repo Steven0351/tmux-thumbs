@@ -1,8 +1,12 @@
 use std::collections::HashMap;
 
-const ALPHABETS: [(&'static str, &'static str); 22] = [
+const ALPHABETS: [(&'static str, &'static str); 26] = [
   ("numeric", "1234567890"),
   ("abcd", "abcd"),
+  ("engram", "cieabyougxjkhtsnldwvrmfpzq"),
+  ("engram-homerow", "cieahtsn"),
+  ("engram-left-hand", "cieabyougxjk"),
+  ("engram-right-hand", "htsnldwvrmfp"),
   ("qwerty", "asdfqwerzxcvjklmiuopghtybn"),
   ("qwerty-homerow", "asdfjklgh"),
   ("qwerty-left-hand", "asdfqwerzcxv"),
