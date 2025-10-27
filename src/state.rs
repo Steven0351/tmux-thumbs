@@ -4,7 +4,7 @@ use std::fmt;
 
 const EXCLUDE_PATTERNS: [(&'static str, &'static str); 1] = [("bash", r"[[:cntrl:]]\[([0-9]{1,2};)?([0-9]{1,2})?m")];
 
-const PATTERNS: [(&'static str, &'static str); 15] = [
+const PATTERNS: [(&'static str, &'static str); 16] = [
   ("markdown_url", r"\[[^]]*\]\(([^)]+)\)"),
   ("url", r"(?P<match>(https?://|git@|git://|ssh://|ftp://|file:///)[^ ]+)"),
   (
@@ -19,6 +19,7 @@ const PATTERNS: [(&'static str, &'static str); 15] = [
   ("uid", r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"),
   ("ipfs", r"Qm[0-9a-zA-Z]{44}"),
   ("sha", r"[0-9a-f]{7,40}"),
+  ("jj_change", r"[k-z]{8}"),
   ("ip", r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}"),
   ("ipv6", r"[A-f0-9:]+:+[A-f0-9:]+[%\w\d]+"),
   ("address", r"0x[0-9a-fA-F]+"),
