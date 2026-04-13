@@ -1,10 +1,10 @@
 # tmux-thumbs
 
-[![Build Status](https://github.com/fcsonline/tmux-thumbs/workflows/Rust/badge.svg)](https://github.com/fcsonline/tmux-thumbs/actions)
-[![dependency status](https://deps.rs/repo/github/fcsonline/tmux-thumbs/status.svg)](https://deps.rs/repo/github/fcsonline/tmux-thumbs)
-[![Coverage Status](https://coveralls.io/repos/github/fcsonline/tmux-thumbs/badge.svg?branch=master)](https://coveralls.io/github/fcsonline/tmux-thumbs?branch=master)
-[![Maintenance](https://img.shields.io/badge/maintenance-actively%20maintained-brightgreen.svg)](https://deps.rs/repo/github/fcsonline/tmux-thumbs)
+[![dependency status](https://deps.rs/repo/sourcehut/~steven0351/tmux-thumbs/status.svg)](https://deps.rs/repo/sourcehut/~steven0351/tmux-thumbs)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
+This is a fork of [github.com/fcsonline/tmux-thumbs](https://github.com/fcsonline/tmux-thumbs) that adds support for engram and jj change ids.
+Everything below is verbatim from the original repo.
 
 A lightning fast version of [tmux-fingers](https://github.com/Morantron/tmux-fingers) written in [Rust](https://www.rust-lang.org/) for copy pasting with vimium/vimperator like hints.
 
